@@ -9,7 +9,7 @@ In this lesson, we'll learn about the importance of sound experimental design, a
 
 You will be able to:
 
-* Understand and explain the concepts behind sound experimental design. 
+* Understand and explain the concepts behind sound experimental design 
 * Understand and explain the purpose of **_Control Groups_** in experiments
 * Understand and explain how **_Random Controlled Trials_** work, and why randomness is important
 
