@@ -22,11 +22,11 @@ The general structure of an experiment is as follows:
 
 ### 1. Make an Observation
 
-The first step of the scientific method is to observe something that you want to test. During this step, you must observe phenomena to help refine the question that we want to answer.  This might be anything from "does this drug have an affect on headaches?" to "does the color of this button affect the number of sales our website makes in a day?".  Before testing these ideas, you need to observe that there might be some phenomena occuring and then come up with a specific question to answer. 
+The first step of the scientific method is to observe something that you want to test. During this step, you must observe phenomena to help refine the question that we want to answer.  This might be anything from "does this drug have an effect on headaches?" to "does the color of this button affect the number of sales our website makes in a day?".  Before testing these ideas, you need to observe that there might be some phenomena occurring and then come up with a specific question to answer. 
 
 ### 2. Examine the Research
 
-Good data scientists work smart before they work hard.  In the case of scientific method, this means seeing what research already exists that may help us answer your question, directly or indirectly.  It could be that someone else has already done an experiment that answers your question--if that's case, you should be aware of that experiment before starting your own, as it could inform your approach to structuring your experiment, or maybe even answer your question outright!  
+Good data scientists work smart before they work hard.  In the case of the scientific method, this means seeing what research already exists that may help us answer your question, directly or indirectly.  It could be that someone else has already done an experiment that answers your question--if that's the case, you should be aware of that experiment before starting your own, as it could inform your approach to structuring your experiment, or maybe even answer your question outright!  
 
 ### 3. Form a Hypothesis
 
@@ -34,7 +34,7 @@ This is the stage that most people remember from learning the scientific method 
 
 ### 4. Conduct an Experiment
 
-This step is the part of the scientific method that will be the focus of this section. You can only test a hypothesis by gathering data from a well-structured experiment.  A well-structured experiment is one that accounts for all of the mistakes and randomness that could give you false signals relating to the effect of an intervention.  Just because you're running an experiment doesn't prove that A causes B, or that there's even a relationship between A and B! A poorly designed experiment will lead to false conclusions that you haven't considered or controlled for. A well-designed experiment leaves you no choice but to acknowledge that the effects seen in a dependent variable are related to an independent variable.  The world is messy and random--you have to account for this messiness and randomness in experiments, so that you can filter it out and be left only with the things you're actively trying to measure. 
+This step is the part of the scientific method that will be the focus of this section. You can only test a hypothesis by gathering data from a well-structured experiment.  A well-structured experiment is one that accounts for all of the mistakes and randomness that could give you false signals relating to the effect of an intervention.  Just because you're running an experiment doesn't prove that A causes B, or that there's even a relationship between A and B! A poorly designed experiment will lead to false conclusions that you haven't considered or controlled for. A well-designed experiment leaves you no choice but to acknowledge that the effects seen in a dependent variable are related to an independent variable.  The world is messy and random. You have to account for this messiness and randomness in experiments so that you can filter it out and be left only with the things you're actively trying to measure. 
 
 ### 5. Analyze Experimental Results
 
@@ -42,14 +42,14 @@ Whether you realize it or not, you've already gotten pretty good at this step! A
 
 ### 6. Draw Conclusions
 
-This step is the logical end point for an experiment.  You've asked a question, looked at experimental results from others that could be related to our question, made an educated guess, designed an experiment, collected data and analyzed the results.  All that is left is to use the results of the analysis step to evaluate whether you believe the hypothesis was correct or not! While the public generally oversimplifies this step to determining causal relationships (e.g. "my experiment showed that {x} causes {y}"), true scientists rarely make claims so bold.  The reality of this step is that you use your analysis of the data to do one of two things: either **_reject the null hypothesis, or fail to reject the null hypothesis_**.  This is a tricky concept, so we'll explore it in much more detail in a future lesson. 
+This step is the logical endpoint for an experiment.  You've asked a question, looked at experimental results from others that could be related to our question, made an educated guess, designed an experiment, collected data and analyzed the results.  All that is left is to use the results of the analysis step to evaluate whether you believe the hypothesis was correct or not! While the public generally oversimplifies this step to determining causal relationships (e.g. "my experiment showed that {x} causes {y}"), true scientists rarely make claims so bold.  The reality of this step is that you use your analysis of the data to do one of two things: either **_reject the null hypothesis or fail to reject the null hypothesis_**.  This is a tricky concept, so we'll explore it in much more detail in a future lesson. 
 
 
 <img src='./images/The+Scientific+Method.jpg' height=50% width=50%>
 
 ## The Foundations of a Sound Experiment
 
-All experiments are not created equal--simply following the steps outlined above does not guarantee that the results of any experiment will be meaningful. For instance, there's nothing stopping a person from testing the hypothesis that "wearing a green shirt will make it rain tomorrow!", seeing rain the next day, and rejecting the null hypothesis, thereby incorrectly "proving" that their choice of wardrobe affected the weather.  Good experiments show us that our independent variable {X} has an affect on our dependent variable {Y} because we control for all the other things that could be affecting {Y}, until we are forced to conclude that the only thing that explains what happened to {Y} is {X}!
+All experiments are not created equal--simply following the steps outlined above does not guarantee that the results of any experiment will be meaningful. For instance, there's nothing stopping a person from testing the hypothesis that "wearing a green shirt will make it rain tomorrow!", seeing rain the next day, and rejecting the null hypothesis, thereby incorrectly "proving" that their choice of wardrobe affected the weather.  Good experiments show us that our independent variable {X} has an effect on our dependent variable {Y} because we control for all the other things that could be affecting {Y}, until we are forced to conclude that the only thing that explains what happened to {Y} is {X}!
 
 Although there are many different kinds of experiments, there are some fundamental aspects of experimental design that all experiments have:
 
@@ -71,7 +71,7 @@ A **_Double-Blind Trial_** is one where the participant does not know if they ar
 
 ### 2. Appropriate Sample Sizes
 
-Randomness is a big problem in experiments. It can lead us to false conclusions by making us think that something doesn't matter when it does, or vice versa. Small sample sizes make us susceptible to the problem of randomness. Large sample sizes protect us from it.  The following scenario illustrates this point:
+Randomness is a big problem in experiments. It can lead you to false conclusions by making you think that something doesn't matter when it does, or vice versa. Small sample sizes make experiments susceptible to the problem of randomness; whereas, large sample sizes protect experiments from it.  The following scenario illustrates this point:
 
 A person tells you that they can predict the outcome of a fair coin flip. You flip a coin, they call "tails", and they are correct.  Is this enough evidence to accept or reject this person's statement?  What if they got it right 2 times in a row? 5 times in a row? 55 times out of 100?  
 
