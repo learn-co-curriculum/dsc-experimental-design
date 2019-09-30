@@ -16,7 +16,7 @@ You will be able to:
 
 ## The Scientific Method
 
-You probably remember at least a little bit about the **_Scientific Method_** from your time in school.  This lesson will focus on the thing that makes it work--sound experimental design! The scientific method has been responsible for all the great progress humanity has seen in everything from medicine to physics to electronics, all because scientists working on problems knew how to design experiments in a way that helped them answer important questions with as little ambiguity as possible. If the scientific method was a car, then experimental design would be the engine that allows that car to move. This is especially important to Data Scientists, because it allows them to examine any problem through the lens of the **_Null Hypothesis_**!
+You probably remember at least a little bit about the **_Scientific Method_** from your time in school.  This lesson will focus on the thing that makes it work--sound experimental design! The scientific method has been responsible for all the great progress humanity has seen in everything from medicine to physics to electronics, all because scientists working on problems knew how to design experiments in a way that helped them answer important questions with as little ambiguity as possible. If the scientific method was a car, then experimental design would be the engine that allows that car to move. This is especially important to Data Scientists because it allows them to examine any problem through the lens of the **_Null Hypothesis_**!
 
 The general structure of an experiment is as follows:
 
@@ -42,7 +42,7 @@ Whether you realize it or not, you've already gotten pretty good at this step! A
 
 ### 6. Draw Conclusions
 
-This step is the logical endpoint for an experiment.  You've asked a question, looked at experimental results from others that could be related to your question, made an educated guess, designed an experiment, collected data and analyzed the results.  All that is left is to use the results of the analysis step to evaluate whether you believe the hypothesis was correct or not! While the public generally oversimplifies this step to determining causal relationships (e.g. "my experiment showed that {x} causes {y}"), true scientists rarely make claims so bold.  The reality of this step is that you use your analysis of the data to do one of two things: either **_reject the null hypothesis or fail to reject the null hypothesis_**.  This is a tricky concept, so you'll explore it in much more detail in a future lesson. 
+This step is the logical endpoint for an experiment.  You've asked a question, looked at experimental results from others that could be related to your question, made an educated guess, designed an experiment, collected data, and analyzed the results.  All that is left is to use the results of the analysis step to evaluate whether you believe the hypothesis was correct or not! While the public generally oversimplifies this step for determining causal relationships (e.g. "my experiment showed that {x} causes {y}"), true scientists rarely make claims so bold.  The reality of this step is that you use your analysis of the data to do one of two things: either **_reject the null hypothesis or fail to reject the null hypothesis_**.  This is a tricky concept, so you'll explore it in much more detail in a future lesson. 
 
 
 <img src='./images/new_the-scientific-method.png' height="75%" width="75%">
@@ -97,9 +97,9 @@ This situation illustrates two things that are important for us to understand an
 
 1. At some point, you would cross a threshold where random chance is small enough that you'd say "this probably isn't random", and are okay with accepting the results as the result of something other than randomness or luck.
 
-With the situation above, you probably wouldn't assume that this person can predict coin flips after only seeing them get 1 correct.  However, if this person got 970 out of 1000 correct, you would probably believe very strongly that this person _can_ predict coin flips, because the odds of guessing randomly and getting 970/1000 correct are very, very small--but not 0!  
+With the situation above, you probably wouldn't assume that this person can predict coin flips after only seeing them get 1 correct.  However, if this person got 970 out of 1000 correct, you would probably believe very strongly that this person _can_ predict coin flips because the odds of guessing randomly and getting 970/1000 correct are very, very small--but not 0!  
 
-Large sample sizes protect us from randomness and variance. A more realistic example would be testing a treatment for HIV.  Less than 1% of the global population carries a protective mutation that makes them resistant to HIV infection.  If you took a randomly selected sample of 1 person from the population, there is a ~1% chance that you may mistakenly attribute successful prevention to the drug you're testing, when the results really happened because you randomly selected a person with this mutation.  However, if your sample size was 100 people per sample, your odds of randomly selecting 100 people with that mutation are $.01^{100}$. The larger your sample size, the more unlikely it is that you randomly draw people that happen to affect your study in a way that is not reflected by the general population.
+Large sample sizes protect us from randomness and variance. A more realistic example would be testing a treatment for HIV.  Less than 1% of the global population carries a protective mutation that makes them resistant to HIV infection.  If you took a randomly selected sample of 1 person from the population, there is a ~1% chance that you may mistakenly attribute successful prevention to the drug you're testing, when the results really happened because you randomly selected a person with this mutation.  However, if your sample size was 100 people per sample, your odds of randomly selecting 100 people with that mutation are $0.01^{100}$. The larger your sample size, the more unlikely it is that you randomly draw people that happen to affect your study in a way that is not reflected by the general population.
 
 <img src='./images/new_sample_size.png' height="60%" width="60%">
 
@@ -110,13 +110,8 @@ Large sample sizes protect us from randomness and variance. A more realistic exa
 
 This one is a big one, and it represents a bit of a crisis in some parts of the scientific community right now.  Good scientific experiments have **_Reproducible Results_**! This means that if someone else follows the steps you outline for your experiment and performs it themselves, they should get pretty much the same results as you did (allowing for natural variance and randomness). If many different people try reproducing your experiment and don't get the same results, this might suggest that your results are due to randomness, or to a **_lurking variable_** that was present in your samples that wasn't present in others. Either way, a lack of reproducibility often casts serious doubts on the results of a study or experiment. 
 
-This is less of a problem for data scientists, since reproducibility usually just means providing the dataset you worked with and the corresponding jupyter notebook.  However, this isn't always the case!   Luckily, you can use code to easily run your experiments multiple times and show reproducibility. When planning experiments, consider running them multiple times to ensure to really help show that your results are sound, and not due to randomness!
+This is less of a problem for data scientists, since reproducibility usually just means providing the dataset you worked with and the corresponding Jupyter notebook.  However, this isn't always the case!   Luckily, you can use code to easily run your experiments multiple times and show reproducibility. When planning experiments, consider running them multiple times to ensure to really help show that your results are sound, and not due to randomness!
 
 ## Summary
 
 Great, you now know about experimental design and the fundamental aspects of experiments! 
-
-
-```python
-
-```
