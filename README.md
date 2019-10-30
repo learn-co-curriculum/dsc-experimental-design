@@ -9,9 +9,11 @@ In this lesson, you'll learn about the importance of sound experimental design, 
 
 You will be able to:
 
-* Understand and explain the concepts behind sound experimental design 
-* Understand and explain the purpose of **_Control Groups_** in experiments
-* Understand and explain how **_Random Controlled Trials_** work, and why randomness is important
+* List the steps of the scientific method
+* Explain the purpose of control/experimental groups
+* List four assumptions for appropriate sampling techniques and sample size
+* Compare and explain the importance of different kinds of randomized control trials
+* Set up null and alternative hypotheses
 
 
 ## The Scientific Method
@@ -102,9 +104,6 @@ With the situation above, you probably wouldn't assume that this person can pred
 Large sample sizes protect us from randomness and variance. A more realistic example would be testing a treatment for HIV.  Less than 1% of the global population carries a protective mutation that makes them resistant to HIV infection.  If you took a randomly selected sample of 1 person from the population, there is a ~1% chance that you may mistakenly attribute successful prevention to the drug you're testing, when the results really happened because you randomly selected a person with this mutation.  However, if your sample size was 100 people per sample, your odds of randomly selecting 100 people with that mutation are $0.01^{100}$. The larger your sample size, the more unlikely it is that you randomly draw people that happen to affect your study in a way that is not reflected by the general population.
 
 <img src='./images/new_sample_size.png' height="60%" width="60%">
-
-
-
 
 ### 3. Reproducibility
 
