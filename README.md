@@ -9,11 +9,11 @@ In this lesson, you'll learn about the importance of sound experimental design, 
 
 You will be able to:
 
-* List the steps of the scientific method
-* Explain the purpose of control/experimental groups
-* List four assumptions for appropriate sampling techniques and sample size
-* Compare and explain the importance of different kinds of randomized control trials
-* Set up null and alternative hypotheses
+- List the steps of the scientific method
+- Explain the purpose of control/experimental groups
+- List four assumptions for appropriate sampling techniques and sample size
+- Compare and explain the importance of different kinds of randomized control trials
+- Set up null and alternative hypotheses
 
 
 ## The Scientific Method
@@ -47,7 +47,7 @@ Whether you realize it or not, you've already gotten pretty good at this step! A
 This step is the logical endpoint for an experiment.  You've asked a question, looked at experimental results from others that could be related to your question, made an educated guess, designed an experiment, collected data, and analyzed the results.  All that is left is to use the results of the analysis step to evaluate whether you believe the hypothesis was correct or not! While the public generally oversimplifies this step for determining causal relationships (e.g. "my experiment showed that {x} causes {y}"), true scientists rarely make claims so bold.  The reality of this step is that you use your analysis of the data to do one of two things: either **_reject the null hypothesis or fail to reject the null hypothesis_**.  This is a tricky concept, so you'll explore it in much more detail in a future lesson. 
 
 
-<img src='./images/new_the-scientific-method.png' height="75%" width="75%">
+<img src='images/new_the-scientific-method.png' width="650">
 
 ## The Foundations of a Sound Experiment
 
@@ -69,7 +69,7 @@ A **_Single-Blind_** or **_Blind Trial_** is one where the participant does not 
 
 A **_Double-Blind Trial_** is one where the participant does not know if they are receiving the treatment or a placebo, and neither does the person administering the experiment (because their bias could affect the outcomes, too!).  Instead, knowing whether someone received the treatment or a placebo is kept hidden from everyone until after the experiment is over (obviously, _someone_ has to know for recordkeeping purposes, but that person stays away from the actual experiment to avoid contaminating it with bias from that knowledge). 
 
-<img src='./images/new_double_blind.png' height="60%" width="60%">
+<img src='images/new_double_blind.png' width="650">
 
 ### 2. Appropriate Sampling Techniques and Sample Size
 
@@ -87,7 +87,7 @@ A sample is random when each data point in your population has an equal chance o
 
 The normal distribution assumption is that the sampling distribution of the mean is normal. That is, if you took a sample, calculated its mean, and then you took another (independent) sample (from the same population) and got its mean (and repeated this an infinite number of times), then the distribution of the values that you wrote down would always be a perfect bell curve. This is the principle behind the Central Limit Theorem, and it is this idea  that allows us to perform hypothesis tests. While maybe surprising, this assumption turns out to be relatively uncontroversial, at least when each of the samples is large, such as N ≥ 30. 
 
-* **Appropriate Sample Size** *
+* **Appropriate Sample Size** 
 
 Randomness is a big problem in experiments. It can lead you to false conclusions by making you think that something doesn't matter when it does, or vice versa. Small sample sizes make experiments susceptible to the problem of randomness; whereas, large sample sizes protect experiments from it.  The following scenario illustrates this point:
 
@@ -97,13 +97,13 @@ This situation illustrates two things that are important for us to understand an
 
 1. No matter how large your sample size, there's always a chance that your results can be attributed to randomness or luck.
 
-1. At some point, you would cross a threshold where random chance is small enough that you'd say "this probably isn't random", and are okay with accepting the results as the result of something other than randomness or luck.
+2. At some point, you would cross a threshold where random chance is small enough that you'd say "this probably isn't random", and are okay with accepting the results as the result of something other than randomness or luck.
 
 With the situation above, you probably wouldn't assume that this person can predict coin flips after only seeing them get 1 correct.  However, if this person got 970 out of 1000 correct, you would probably believe very strongly that this person _can_ predict coin flips because the odds of guessing randomly and getting 970/1000 correct are very, very small--but not 0!  
 
 Large sample sizes protect us from randomness and variance. A more realistic example would be testing a treatment for HIV.  Less than 1% of the global population carries a protective mutation that makes them resistant to HIV infection.  If you took a randomly selected sample of 1 person from the population, there is a ~1% chance that you may mistakenly attribute successful prevention to the drug you're testing, when the results really happened because you randomly selected a person with this mutation.  However, if your sample size was 100 people per sample, your odds of randomly selecting 100 people with that mutation are $0.01^{100}$. The larger your sample size, the more unlikely it is that you randomly draw people that happen to affect your study in a way that is not reflected by the general population.
 
-<img src='./images/new_sample_size.png' height="60%" width="60%">
+<img src='images/new_sample_size.png' width="650">
 
 ### 3. Reproducibility
 
