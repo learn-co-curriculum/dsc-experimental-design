@@ -86,7 +86,7 @@ A sample is random when each data point in your population has an equal chance o
 
 The normal distribution assumption is that the sampling distribution of the mean is normal. That is, if you took a sample, calculated its mean, and then you took another (independent) sample (from the same population) and got its mean (and repeated this an infinite number of times), then the distribution of the values that you wrote down would always be a perfect bell curve. This is the principle behind the Central Limit Theorem, and it is this idea  that allows us to perform hypothesis tests. While maybe surprising, this assumption turns out to be relatively uncontroversial, at least when each of the samples is large, such as N ≥ 30. 
 
-* **Appropriate Sample Size** *
+* **Appropriate Sample Size**
 
 Randomness is a big problem in experiments. It can lead you to false conclusions by making you think that something doesn't matter when it does, or vice versa. Small sample sizes make experiments susceptible to the problem of randomness; whereas, large sample sizes protect experiments from it.  The following scenario illustrates this point:
 
@@ -113,8 +113,3 @@ This is less of a problem for data scientists, since reproducibility usually jus
 ## Summary
 
 Great, you now know about experimental design and the fundamental aspects of experiments! 
-
-
-```python
-
-```
